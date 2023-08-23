@@ -1,0 +1,49 @@
+@media only screen and (max-width: 425px) {
+  .main-container {
+    width: 100%;
+  }
+  .nav-links {
+    display: none;
+    margin: 0;
+  }
+  .nav-search > input,
+  .nav-search > img {
+    display: none;
+  }
+  .navbar,
+  .nav-search {
+    column-gap: 0;
+  }
+  .navbar {
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .nav-icon > a > img {
+    height: 1.8em;
+    margin-top: 12px;
+  }
+  .header-container {
+    width: 100%;
+    background-color: #f2f0f1;
+  }
+  .head-banner {
+    display: none;
+  }
+  .header-text {
+    padding: 20px;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+  }
+  .header-text > h1 {
+    font-size: 2.3em;
+    text-shadow: none;
+    line-height: 40px;
+  }
+  .m-head-banner {
+    display: block !important;
+    bottom: 0px;
+  }
+}
