@@ -39,7 +39,7 @@ a {
 .navbar {
   padding: 30px 50px;
   height: 100px;
-  background-color: #fafafa;
+  background-color: #fff;
   color: #000;
   align-items: baseline;
 }
@@ -83,3 +83,29 @@ a {
 
 /* <<<<<<<< Header Start >>>>>>>> */
 
+.header-container {
+  /* padding: 30px 50px; */
+  color: #000;
+  height: 592px;
+  position: relative;
+}
+.banner-img > img {
+  width: 100%;
+}
+.header-text {
+  padding: 80px 0 30px 50px;
+  position: absolute;
+  width: 45%;
+}
+.header-text > h1 {
+  font-family: "Integral-CF-Bold";
+  font-size: 3.9em;
+  line-height: 0.9em;
+  text-shadow: 0px 4px 4px #808080;
+}
+.header-text > p {
+  color: #000;
+  opacity: 60;
+  font-family: "Santoshi-Regular";
+  margin: 30px 0;
+}
