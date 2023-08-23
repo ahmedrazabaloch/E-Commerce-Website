@@ -28,6 +28,9 @@ a {
   width: 1320px;
   margin: 0 auto;
 }
+
+/* <<<<<<<< Navbar start >>>>>>>> */
+
 .navbar,
 .nav-search {
   display: flex;
@@ -46,6 +49,37 @@ a {
   border-bottom: 3px solid #000;
 }
 .nav-links {
-  font-size: 1.3em;
+  font-size: 1.2em;
   font-family: "Santoshi-Regular";
+  margin: 0px 55px;
 }
+.nav-links > a {
+  margin: 0px 10px;
+}
+.nav-search {
+  position: relative;
+  align-items: center;
+}
+.nav-search > input {
+  border-radius: 30px;
+  border: none;
+  width: 400px;
+  height: 45px;
+  outline: none;
+  font-size: large;
+  background-color: #f0f0f0;
+  padding: 0 50px;
+}
+.nav-search > img {
+  position: absolute;
+  top: 12px;
+  left: 20px;
+}
+
+.nav-icon > a > img {
+  margin: 0 10px;
+  height: 1.5em;
+}
+
+/* <<<<<<<< Header Start >>>>>>>> */
+
