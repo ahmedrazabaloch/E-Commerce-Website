@@ -1,5 +1,51 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+@font-face {
+  font-family: "Integral-CF-Bold";
+  src: url(assests/fonts/Integral-CF/Fontspring-DEMO-integralcf-bold.otf);
+}
+@font-face {
+  font-family: "Santoshi-Regular";
+  src: url(assests/fonts/Satoshi_Complete/Satoshi_Complete/Fonts/OTF/Satoshi-Regular.otf);
+}
+@font-face {
+  font-family: "Santoshi-Medium";
+  src: url(assests/fonts/Satoshi_Complete/Satoshi_Complete/Fonts/OTF/Satoshi-Medium.otf);
+}
+@font-face {
+  font-family: "Santoshi-Bold";
+  src: url(assests/fonts/Satoshi_Complete/Satoshi_Complete/Fonts/OTF/Satoshi-Bold.otf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.main-container {
+  width: 1320px;
+  margin: 0 auto;
+}
+.navbar,
+.nav-search {
+  display: flex;
+  column-gap: 20px;
+}
+.navbar {
+  padding: 30px 50px;
+  height: 100px;
+  background-color: #fafafa;
+  color: #000;
+  align-items: baseline;
+}
+.nav-logo > a {
+  font-size: 1.8em;
+  font-family: "Integral-CF-Bold";
+  border-bottom: 3px solid #000;
+}
+.nav-links {
+  font-size: 1.3em;
+  font-family: "Santoshi-Regular";
 }
