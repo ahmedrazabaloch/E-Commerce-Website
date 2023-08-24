@@ -82,4 +82,17 @@
     padding-top: 0px;
     column-gap: 10px;
   }
+  .footer-container > h1 {
+    text-align: center;
+    margin: 0 auto;
+  }
+  .comment-box {
+    flex-direction: column;
+  }
+  .footer-box {
+    padding: 20px;
+    width: 90%;
+    border-radius: 20px;
+    margin: 10px auto;
+  }
 }

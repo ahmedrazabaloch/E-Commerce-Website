@@ -254,3 +254,33 @@ a .btn {
 }
 
 /*<<<<<<<< Happy Customer Section start >>>>>>>> */
+.footer-container {
+  padding: 30px;
+}
+.footer-container > h1 {
+  font-family: "Integral-CF-Bold";
+  font-size: 2.5em;
+  margin: 50px 0;
+}
+.comment-box {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.footer-box {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  width: 30%;
+  border-radius: 20px;
+}
+.footer-box h3 {
+  font-size: 1.5em;
+  margin: 5px 0;
+  font-family: "Santoshi-Bold";
+}
+.footer-box p {
+  font-size: 1em;
+  margin-top: 10px;
+  font-family: "Santoshi-Regular";
+  color: #808080;
+}
