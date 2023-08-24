@@ -221,7 +221,36 @@ a .btn {
 }
 /* <<<<<<<< Dress Style start >>>>>>>> */
 
-
-.dressStyle-container{
-
+.dressStyle-container {
+  width: 95%;
+  background-color: #f0eeed;
+  margin: 20px auto;
+  padding: 50px 0;
+  border-radius: 40px;
+  position: relative;
 }
+.dressStyle-container > h1 {
+  font-family: "Integral-CF-Bold";
+  text-align: center;
+  font-size: 2.5em;
+  margin: 50px auto 80px auto;
+}
+.dressStyle-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 50px;
+  column-gap: 20px;
+}
+.dressStyle-box img {
+  border-radius: 20px;
+}
+.dressStyle-box h3 {
+  font-family: "Santoshi-Bold";
+  font-size: 1.5em;
+  position: relative;
+  bottom: 80%;
+  left: 10%;
+}
+
+/*<<<<<<<< Happy Customer Section start >>>>>>>> */

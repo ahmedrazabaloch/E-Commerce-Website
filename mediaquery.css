@@ -68,4 +68,18 @@
     padding: 30px 10px 10px 10px;
     justify-content: space-between;
   }
+  .dressStyle-container > h1 {
+    margin: 0px auto 40px auto;
+  }
+
+  .dressStyle-box img {
+    width: 90%;
+    padding-top: 10px;
+    margin: 0 auto;
+    display: flex;
+  }
+  .dressStyle-box {
+    padding-top: 0px;
+    column-gap: 10px;
+  }
 }
