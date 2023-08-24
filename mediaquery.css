@@ -27,7 +27,7 @@
   .header-container {
     width: 100%;
     background-color: #f2f0f1;
-    height: 920px;
+    height: 977px;
   }
   .header-text {
     padding: 20px;
@@ -61,5 +61,11 @@
     top: 55%;
     width: 70px;
     right: 10%;
+  }
+
+  .company-add {
+    height: 180px;
+    padding: 30px 10px 10px 10px;
+    justify-content: space-between;
   }
 }
