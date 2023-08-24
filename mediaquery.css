@@ -27,9 +27,7 @@
   .header-container {
     width: 100%;
     background-color: #f2f0f1;
-  }
-  .head-banner {
-    display: none;
+    height: 920px;
   }
   .header-text {
     padding: 20px;
@@ -42,8 +40,26 @@
     text-shadow: none;
     line-height: 40px;
   }
+  .banner-img {
+    background-image: none;
+  }
   .m-head-banner {
-    display: block !important;
-    bottom: 0px;
+    display: block;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    text-align: center;
+  }
+  .m-head-banner > img {
+    width: 100%;
+  }
+  .small-star {
+    top: 70%;
+    left: 7%;
+  }
+  .big-star {
+    top: 55%;
+    width: 70px;
+    right: 10%;
   }
 }

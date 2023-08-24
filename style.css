@@ -85,14 +85,18 @@ a {
 /* <<<<<<<< Header Start >>>>>>>> */
 
 .header-container {
-  /* padding: 30px 50px; */
   color: #000;
   height: 592px;
   position: relative;
 }
-.banner-img > img {
-  width: 100%;
+
+.banner-img {
+  background-image: url("assests/images/head-banner.svg");
+  background-position-x: right;
+  background-size: cover;
+  height: 592px;
 }
+
 .header-text {
   padding: 80px 0 30px 50px;
   position: absolute;
@@ -141,12 +145,25 @@ a .btn {
 .small-star {
   position: absolute;
   height: 50px;
-  left: 5%;
-  top: 40%;
+  top: 50%;
+  right: 42%;
 }
 .big-star {
   position: absolute;
   height: 100px;
-  left: 40%;
-  top: 20%;
+  top: 15%;
+  right: 5%;
+}
+.m-head-banner {
+  display: none;
+}
+/*  <<<<<<<< Advertisement start >>>>>>>>  */
+.company-add {
+  /* height: 100px; */
+  background-color: #000;
+  padding: 25px 50px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
 }
