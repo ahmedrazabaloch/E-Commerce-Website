@@ -157,7 +157,9 @@ a .btn {
 .m-head-banner {
   display: none;
 }
+
 /*  <<<<<<<< Advertisement start >>>>>>>>  */
+
 .company-add {
   /* height: 100px; */
   background-color: #000;
@@ -166,4 +168,60 @@ a .btn {
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
+}
+
+/* <<<<<<<< New Arrivals start >>>>>>>>  */
+.arrival-container > h1 {
+  font-family: "Integral-CF-Bold";
+  text-align: center;
+  font-size: 2.5em;
+  margin: 50px 0;
+}
+.arrival-box {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.arrival-box img {
+  border-radius: 15px;
+}
+.arrival-box h3 {
+  font-family: "Santoshi-bold";
+  text-align: center;
+  margin-top: 5px;
+}
+.arrival-box sup {
+  font-size: 0.6em;
+}
+.rating {
+  display: flex;
+  justify-content: center;
+  column-gap: 10px;
+  font-family: "Santoshi-Regular";
+}
+.rating span {
+  color: #808080;
+}
+.view-all {
+  margin: 50px 0;
+  text-align: center;
+}
+.view-all button {
+  font-size: 0.9em;
+  padding: 10px 50px;
+  border-radius: 40px;
+  background-color: transparent;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+.hr {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  width: 90%;
+  margin: 10px auto;
+}
+/* <<<<<<<< Dress Style start >>>>>>>> */
+
+
+.dressStyle-container{
+
 }
