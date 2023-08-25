@@ -95,4 +95,15 @@
     border-radius: 20px;
     margin: 10px auto;
   }
+  .newsletter {
+    flex-direction: column;
+  }
+  .newsletter > div {
+    width: 100%;
+  }
+  .newsletter > h1 {
+    width: 100%;
+    font-size: 2em;
+    margin-bottom: 40px;
+  }
 }

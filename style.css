@@ -19,6 +19,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Santoshi-Regular";
 }
 a {
   text-decoration: none;
@@ -324,3 +325,4 @@ a .btn {
   left: 7%;
   top: 15%;
 }
+/* <<<<<<<< Footer Information Section start >>>>>>>>  */
