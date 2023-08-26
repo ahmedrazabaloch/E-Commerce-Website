@@ -27,7 +27,7 @@
   .header-container {
     width: 100%;
     background-color: #f2f0f1;
-    height: 977px;
+    height: 1000px;
   }
   .header-text {
     padding: 20px;
@@ -47,7 +47,7 @@
     display: block;
     width: 100%;
     position: absolute;
-    top: 50%;
+    bottom: -1%;
     text-align: center;
   }
   .m-head-banner > img {
@@ -105,5 +105,43 @@
     width: 100%;
     font-size: 2em;
     margin-bottom: 40px;
+  }
+  .m-btn{
+    padding:15px 0px ;
+  }
+  .last-section {
+    flex-direction: column;
+    padding: 80px 20px 0;
+  }
+  .footer-left-div {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .social-icon {
+    justify-content: center;
+  }
+  .footer-right-div {
+    margin: unset;
+    width: 100%;
+  }
+  .footer-unorderd {
+    flex-wrap: wrap;
+    row-gap: 35px;
+  }
+  .footer-unorderd > li {
+    width: 50%;
+  }
+  .reserved-section {
+    padding: 40px;
+    text-align: center;
+  }
+  .footer-icons {
+    flex-direction: column;
+    width: 100%;
+  }
+  .footer-icons > div {
+    height: 45px;
+    margin-top: 15px;
   }
 }

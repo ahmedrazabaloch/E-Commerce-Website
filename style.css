@@ -127,11 +127,12 @@ a .btn {
 }
 .header-counting {
   width: 100%;
-  height: 80px;
+  padding: 15px;
   background-color: #fff;
   margin-top: 50px;
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
   align-items: center;
 }
 .header-counting h2 {
@@ -370,7 +371,7 @@ li {
   font-family: "Santoshi-Medium";
   letter-spacing: 1px;
 }
-.footer-unorderd > li > ul > li {
+.footer-unorderd > li > ol > li {
   margin-top: 20px;
 }
 /*<<<<<<<< Right Reserved Section start >>>>>>>>*/
