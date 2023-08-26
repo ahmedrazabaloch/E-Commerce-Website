@@ -310,8 +310,8 @@ a .btn {
 }
 .footer-btn {
   width: 100%;
-  font-size: 1em;
-  padding: 15px 0px 15px 40px;
+  font-size: 0.9em;
+  padding: 15px 40px;
   border-radius: 50px;
   background-color: #fff;
   font-family: "Santoshi-regular";
