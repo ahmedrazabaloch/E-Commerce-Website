@@ -131,9 +131,8 @@ a .btn {
   background-color: #fff;
   margin-top: 50px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   flex-wrap: wrap;
-  align-items: center;
 }
 .header-counting h2 {
   font-family: "Santoshi-bold";
@@ -312,7 +311,7 @@ a .btn {
 .footer-btn {
   width: 100%;
   font-size: 1em;
-  padding: 15px 50px;
+  padding: 15px 0px 15px 40px;
   border-radius: 50px;
   background-color: #fff;
   font-family: "Santoshi-regular";
@@ -323,8 +322,8 @@ a .btn {
 
 #email-icon {
   position: absolute;
-  left: 7%;
-  top: 15%;
+  left: 4%;
+  top: 16%;
 }
 /* <<<<<<<< Footer Information Section start >>>>>>>>  */
 .last-section {

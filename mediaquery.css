@@ -27,7 +27,7 @@
   .header-container {
     width: 100%;
     background-color: #f2f0f1;
-    height: 1000px;
+    height: 1040px;
   }
   .header-text {
     padding: 20px;
@@ -36,7 +36,7 @@
     text-align: center;
   }
   .header-text > h1 {
-    font-size: 2.3em;
+    font-size: 1.92em;
     text-shadow: none;
     line-height: 40px;
   }
@@ -54,22 +54,26 @@
     width: 100%;
   }
   .small-star {
-    top: 70%;
+    top: 75%;
     left: 7%;
   }
   .big-star {
-    top: 55%;
+    top: 60%;
     width: 70px;
     right: 10%;
   }
 
   .company-add {
-    height: 180px;
-    padding: 30px 10px 10px 10px;
+    padding: 30px 10px;
     justify-content: space-between;
+    gap: 25px;
+  }
+  .company-add > img {
+    margin: 0 auto;
   }
   .dressStyle-container > h1 {
     margin: 0px auto 40px auto;
+    font-size: 2em;
   }
 
   .dressStyle-box img {
@@ -103,11 +107,12 @@
   }
   .newsletter > h1 {
     width: 100%;
-    font-size: 2em;
+    font-size: 1.5em;
     margin-bottom: 40px;
+    text-align: center;
   }
-  .m-btn{
-    padding:15px 0px ;
+  .m-btn {
+    padding: 15px 0px;
   }
   .last-section {
     flex-direction: column;
@@ -128,9 +133,11 @@
   .footer-unorderd {
     flex-wrap: wrap;
     row-gap: 35px;
+    padding-left: 20px;
   }
   .footer-unorderd > li {
     width: 50%;
+    text-align: left;
   }
   .reserved-section {
     padding: 40px;
