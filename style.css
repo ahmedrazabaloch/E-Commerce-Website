@@ -288,7 +288,7 @@ a .btn {
 /* <<<<<<<< Newsletter Section start >>>>>>>> */
 
 .newsletter {
-  width: 95%;
+  width: 92%;
   background-color: #000;
   padding: 30px 50px;
   margin: 0 auto;
@@ -329,7 +329,7 @@ a .btn {
 .last-section {
   width: 100%;
   background-color: #f0f0f0;
-  padding: 80px 40px;
+  padding: 80px 60px 0px;
   display: flex;
 }
 .footer-logo > a {
@@ -352,7 +352,8 @@ a .btn {
   height: 2.5em;
 }
 .footer-right-div {
-  width: 65%;
+  width: 70%;
+  margin-left: auto;
 }
 .footer-unorderd {
   display: flex;
@@ -366,9 +367,26 @@ li {
 }
 .footer-unorderd > li {
   color: #000 !important;
-  font-family: "Santoshi-bold";
+  font-family: "Santoshi-Medium";
   letter-spacing: 1px;
 }
 .footer-unorderd > li > ul > li {
   margin-top: 20px;
+}
+/*<<<<<<<< Right Reserved Section start >>>>>>>>*/
+
+.reserved-section {
+  width: 100%;
+  background-color: #f0f0f0;
+  padding: 40px 60px;
+}
+.footer-icons {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  justify-content: space-between;
+  padding-top: 15px;
+}
+.footer-icons > p {
+  color: #808080;
 }
