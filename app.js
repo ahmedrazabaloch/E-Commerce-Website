@@ -8,3 +8,9 @@ Swal.fire({
     popup: "animate__animated animate__fadeOutUp",
   },
 });
+
+
+function showAlert(){
+  alert("Page coming soon\nUnder Developent")
+  
+}
