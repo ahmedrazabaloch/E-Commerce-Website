@@ -72,6 +72,9 @@ a {
   background-color: #f0f0f0;
   padding: 0 50px;
 }
+.nav-search > input:focus {
+border: 1px solid #b4a7a7 ;
+}
 .nav-search > img {
   position: absolute;
   top: 12px;
@@ -124,7 +127,15 @@ a .btn {
   border-radius: 50px;
   cursor: pointer;
   font-family: "Santoshi-Regular";
+  transition: 0.99s;
 }
+a .btn:hover {
+  background-color: #f0f0f0;
+  color: #000;
+  border: 1px solid #000;
+  transition: 0.99s;
+}
+
 .header-counting {
   width: 100%;
   padding: 15px;
@@ -169,7 +180,7 @@ a .btn {
   flex-wrap: wrap;
   align-items: center;
 }
-.company-add>img{
+.company-add > img {
   cursor: pointer;
 }
 
@@ -310,6 +321,10 @@ a .btn {
   flex-direction: column;
   position: relative;
 }
+.arrival-container img,
+.dressStyle-container img:hover {
+  cursor: pointer;
+}
 .footer-btn {
   width: 100%;
   font-size: 0.9em;
@@ -320,6 +335,9 @@ a .btn {
   border: none;
   margin: 5px 0;
   outline: none;
+}
+.m-btn {
+  cursor: pointer;
 }
 
 #email-icon {
@@ -366,6 +384,7 @@ a .btn {
 li {
   list-style: none;
   color: #808080;
+  cursor: pointer;
 }
 .footer-unorderd > li {
   color: #000 !important;
