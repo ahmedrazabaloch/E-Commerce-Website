@@ -10,5 +10,14 @@ Swal.fire({
 });
 
 function showAlert() {
-  alert("Page coming soon\nUnder Developent");
+  Swal.fire({
+    title:
+      "<img style=width:300px height:300px src=assests/images/coming-soon.jpg><hr/> Page Under Development⚙️",
+    showClass: {
+      popup: "animate__animated animate__fadeInDown",
+    },
+    hideClass: {
+      popup: "animate__animated animate__fadeOutUp",
+    },
+  });
 }

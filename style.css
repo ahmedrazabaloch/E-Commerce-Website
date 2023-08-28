@@ -54,6 +54,7 @@ a {
   font-size: 1.2em;
   font-family: "Santoshi-Regular";
   margin: 0px 55px;
+  cursor: pointer;
 }
 .nav-links > a {
   margin: 0px 10px;
